@@ -1,18 +1,17 @@
 {
-  "name": "airline-system",
+  "name": "manager",
   "version": "1.0.0",
   "description": "",
-  "main": "system/system.js",
+  "main": "manager.js",
   "scripts": {
-    "start": "nodemon system/system.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "dotenv": "^16.3.1",
-    "socket.io": "^4.7.1",
-    "uuid": "^9.0.0"
+    "socket.io-client": "^4.7.1"
   }
 }
